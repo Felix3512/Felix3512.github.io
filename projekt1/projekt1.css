@@ -1,0 +1,62 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: 1000;
+    margin-left: 40px;
+    
+}
+ul {
+display: flex;
+gap: 30px;
+background-color: yellow;
+margin-right: 15px;
+
+
+
+}
+.main-nav{
+    display: flex;
+    background-color: #0b1763;
+    justify-content: space-between;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+a {
+    color: white;
+    font-size: 15px;
+
+}
+
+.bild-section{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 490px;
+    background-color: #3949AB;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+    
+    
+}
+
+.hero-image img {
+
+    display: flex;
+    height: 150px;
+    padding-top: 15px;
+    border-radius: 20px;
+   
+}
+.opel-text {
+    background-color: #7b7d8a;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
