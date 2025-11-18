@@ -4,12 +4,12 @@ h1 {
     color: white;
     font-weight: 1000;
     margin-left: 40px;
-    
+
 }
 ul {
 display: flex;
 gap: 30px;
-background-color: yellow;
+
 margin-right: 15px;
 
 
@@ -21,7 +21,7 @@ margin-right: 15px;
     justify-content: space-between;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    
+
 }
 a {
     color: white;
@@ -37,11 +37,10 @@ a {
     align-items: center;
     padding: 0 490px;
     background-color: #3949AB;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    
-    
-    
+
+
+
+
 }
 
 .hero-image img {
@@ -50,7 +49,7 @@ a {
     height: 150px;
     padding-top: 15px;
     border-radius: 20px;
-   
+
 }
 .opel-text {
     background-color: #7b7d8a;
@@ -60,3 +59,93 @@ a {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.info-section {
+
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    background-color: #adacac;
+    background-color: #3949AB;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+main {
+
+    background-color: #adacac;
+    padding: 50px 10%;
+
+}
+
+.info-image img {
+
+        display: flex;
+        height: 200px;
+        border-radius: 15px;
+        
+
+}
+
+
+
+.gallery-section {
+
+    background-color: #3949AB;
+    margin: 10px ;
+    border-radius: 15px;
+    
+}
+
+.gallery-section h2 {
+
+        padding: 10px;
+        
+    
+}
+
+.gallery-grid{
+    background-color: #3949AB;
+    display: flex;
+    /* gap: 15px; */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+.gallery-content {
+
+      padding-left: 20px
+        
+}
+
+.gallery-content h3 {
+
+      
+      padding-left: 20px;
+        
+}
+
+.gallery-content p {
+
+      padding-left: 20px;
+        
+}
+
+.gallery-image img {
+
+    height: 200px;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+
+footer {
+
+    background-color: #3949AB;
+    height: 50px;
+    text-align: center;
+    padding-top: 8px;
+}
+
