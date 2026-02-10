@@ -43,6 +43,7 @@ nav
     text-align: center;
     position: relative;
     color: white;
+    padding-bottom: 12rem;
 
 }
 
@@ -138,9 +139,8 @@ nav
 .main-content {
 
     max-width: 1200px;
-    margin: 4rem auto;
+    margin: 3rem auto;
     padding: 0 2rem;
-    background-color: red;
 
 }
 
@@ -152,18 +152,17 @@ body {
 .about-section {
 
     background: white;
-    border-radius: 12px;
+    border-radius: 20px;
     padding: 3rem;
     margin-bottom: 3rem;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    background-color: yellow;
 
 }
 
 .section-title {
     
     font-size: 2.5rem;
-    color: #2c3e50;
+    color: #000000;
     text-align: center;
     margin-bottom: 3rem;
     position: relative;
@@ -176,7 +175,7 @@ body {
     content: '';
     width: 400px;
     height: 4px;
-    background: linear-gradient(135deg, #e67e22, #f39c12);
+    background: #346340;
     display: block;
     margin: 1rem auto;
     border-radius: 2px;
@@ -190,7 +189,6 @@ body {
     gap: 3rem;
     align-items: center;
     margin-bottom: 3rem;
-    background-color: blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -218,7 +216,7 @@ body {
 
 .about-text h2 {
 
-    color: #e67e22;
+    color: #000000;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -231,6 +229,7 @@ body {
     color: #555;
     margin-bottom: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 120px;
 
 }
 
@@ -241,7 +240,7 @@ body {
     border-radius: 12px;
     margin: 2rem;
     text-align: center;
-    border-left: 4px solid #e67e22;
+    border: 1px solid #000000;
 
 }
 
@@ -265,10 +264,11 @@ body {
     font-weight: bold;
     transition: all 0.3 ease;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
-color-btn.hover {
+color-btn:hover {
 
     transform:  translateY(-2px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
@@ -282,6 +282,7 @@ color-btn.hover {
 
 @media (max-width: 768px) {
     .about-grid {
+
         grid-template-columns: 1fr;
         text-align: center;
     
