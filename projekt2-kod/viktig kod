@@ -1,7 +1,0 @@
-
-    box-sizing: border-box; 
-    top: 0;     Bestämmer vad som är högt upp på sidan
-    z-index:   // Bestämmer vad som är överst
-    box-shadow  //lägger en liten skugga mellan
-    background-image: linear gradient
-    <text-decoration></text-decoration>

@@ -322,14 +322,29 @@ img {
     color: white;
 }
 
+.portfolio-section {
+
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
 .project-card {
     
-    
-    justify-content: right;
-    flex-direction: column;
-    background-color: red;
-    
-    
+    margin:  10rem;
+    background-color: rgb(73, 64, 64);
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.card-content {
+
+    padding: 30px;
+    font-size: 25px;
+
     
 }
 
@@ -346,10 +361,52 @@ img {
 .card-tags {
 
     color: white;
+     cursor: pointer;
+     
+    
+}
+
+.tag {
+
+    background-color: rgb(80, 56, 12);
+    border-radius: 20px;
+    padding: 10px;
+    
+
+    
+}
+
+.like-section {
+
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top: 15px;
+    
+}
+
+.like-button {
+
+    font-size: 20px;
+    
+    
 }
 
 .like-counter {
 
     color: white;
 }
+
+.project-card:hover {
+
+    transform:  translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.6);
+}
+
+.tag:hover {
+
+    transform:  translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+}
+
 
