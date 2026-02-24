@@ -316,3 +316,41 @@ img {
     border-radius: 300px;
 
 }
+
+.section-title {
+
+    color: white;
+}
+
+.project-card {
+
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    
+}
+
+.card-title {
+
+    color: white;
+}
+
+.card-description {
+
+    color: white;
+}
+
+.card-tags {
+
+    color: white;
+}
+
+.like-counter {
+
+    color: white;
+}
+
+.like-section {
+
+    
+}
