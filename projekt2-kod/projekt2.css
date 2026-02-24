@@ -323,10 +323,13 @@ img {
 }
 
 .project-card {
-
-    display: flex;
+    
+    
+    justify-content: right;
     flex-direction: column;
     background-color: red;
+    
+    
     
 }
 
@@ -350,7 +353,3 @@ img {
     color: white;
 }
 
-.like-section {
-
-    
-}
