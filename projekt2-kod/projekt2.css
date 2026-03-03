@@ -433,9 +433,15 @@ footer {
 
 }
 
+.grid-container {
+
+   
+
+}
+
 .footer-section {
 
-
+    
 }
 
 .footer-section h3 {
@@ -444,6 +450,7 @@ footer {
     margin-bottom: 1rem;
     font-size: 1.3rem;
     position: relative;
+    
 
 }
 
