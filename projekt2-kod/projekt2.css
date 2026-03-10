@@ -15,11 +15,21 @@ nav
 
 .nav-title
 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans";
     font-size: 3rem;
     margin-left: 3rem;
     font-weight: 400;
     color: white;
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
     
 }
 .nav-list
@@ -27,9 +37,19 @@ nav
     display: flex;
     gap: 40px;
     margin-right: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans";
     color: white;
      list-style-type: none
+
+     /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
     
 }
 .hero-header
@@ -74,8 +94,19 @@ nav
     font-size: 70px;
     margin-bottom: 1rem;
     font-weight: 100;
-    text-shadow: 100;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow:  10px 10px 5px #000;
+    font-family: "Open Sans";
+
+     /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
+
 }
 
 .hero-subtitle {
@@ -83,7 +114,17 @@ nav
     font-size: 15px;
     opacity: 40%;
     line-height: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
     
 
 }
@@ -92,7 +133,6 @@ nav
 
 
     display: flex;
-    gap: 12;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
@@ -108,9 +148,19 @@ nav
     border-radius: 50px;
     font-size: 1.4rem;
     font-weight: 300;   
-    transition: all 0.3sec ease;
+    transition: all 0.3s ease;
     padding: 7px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
     
 
 }
@@ -125,7 +175,7 @@ nav
 
     background: #f8f9fa;
     transform: translateY(-2px);
-    box-shadow: 0 5px px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
 
 .btn-secondary {
@@ -167,7 +217,17 @@ body {
     text-align: center;
     margin-bottom: 3rem;
     position: relative;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
 
 }
 
@@ -190,7 +250,17 @@ body {
     gap: 3rem;
     align-items: center;
     margin-bottom: 3rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
 
 }
 
@@ -220,7 +290,17 @@ body {
     color: #000000;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
 
 }
 
@@ -229,8 +309,18 @@ body {
     font-size: 1.1rem;
     color: #555;
     margin-bottom: 1.5rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans";
     padding-right: 120px;
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
 
 }
 
@@ -252,7 +342,17 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 1rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
 
 }
 
@@ -263,9 +363,19 @@ body {
     border-radius: 25px;
     cursor: pointer;
     font-weight: bold;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
 
 }
 
@@ -321,6 +431,18 @@ img {
 .section-title {
 
     color: white;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
+
 }
 
 .portfolio-section {
@@ -345,6 +467,17 @@ img {
 
     padding: 30px;
     font-size: 25px;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
 
     
 }
@@ -352,17 +485,50 @@ img {
 .card-title {
 
     color: white;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
 }
 
 .card-description {
 
     color: white;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
 }
 
 .card-tags {
 
     color: white;
      cursor: pointer;
+     font-family: "Open Sans";
+
+     /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
      
     
 }
@@ -383,19 +549,52 @@ img {
     flex-direction: column;
     font-size: 30px;
     margin-top: 15px;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
+
     
 }
 
 .like-button {
 
     font-size: 20px;
+    font-family: "Open Sans";
     
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
     
 }
 
 .like-counter {
 
     color: white;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
 }
 
 .project-card:hover {
@@ -431,7 +630,7 @@ footer {
 .footer-grid {
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, ifr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 3rem;
     margin-bottom: 2rem;
 
@@ -439,11 +638,10 @@ footer {
 
 .grid-container {
 
-    max-width: 1200px;
-    max-width: 0 auto;
+    max-width: 1400px;
+    max-width: 950px;
     padding: 0 2rem;
     display: flex;
-    
 
 }
 
@@ -466,6 +664,18 @@ footer {
     margin-bottom: 1rem;
     font-size: 1.3rem;
     position: relative;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
+
     
     
 }
@@ -475,6 +685,7 @@ footer {
     display: flex;
     gap: 1rem;
     list-style-type: none
+    
 }
 
 .footer-section h3::after {
@@ -493,6 +704,18 @@ footer {
 
     margin-top: 50px;
     text-align: center;
+    font-family: "Open Sans";
+
+    /*
+UPPHOVSRÄTTSANALYS
+   Innehåll: Typsnitt
+   Källa: https://fonts.google.com/specimen/Open+Sans/license
+   Licens: SIL OPEN FONT LICENSE Version 1.1
+   Innebär: Fri att använda
+   Använder jag den? Ja
+
+    */
+
 
 }
 
