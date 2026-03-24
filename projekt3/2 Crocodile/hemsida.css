@@ -1,11 +1,56 @@
 nav {
-    background-color: green;
+    background-color: #1A3320;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 1rem;
+    height: calc(200px - .5rem);
+    text-align: center;
+    position: relative
 }
 
 .nav-title {
 
+    
+    background-color: red;
+}
+
+.nav-image {
+    position: absolute;
+    left: 1rem; 
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+
+hero {
+
+    background-color: #2E5E38;
+    
+
+}
+
+.hero-row1 {
+background-color: #2E5E38;
+display: flex;
+padding: 1rem;
+
+
+}
+
+.hero-row2 {
+
+    background-color: #2E5E38;
+    padding: 1rem;
+    display: flex;
+    
+}
+
+.hero-text {
+    background-color: #224632;;
+    font-size: 20px;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 15px;
     
 }
