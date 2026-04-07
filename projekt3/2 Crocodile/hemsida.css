@@ -54,3 +54,18 @@ padding: 1rem;
     border-radius: 15px;
     
 }
+
+
+.main-image {
+
+    background-color: red;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main-text {
+
+    margin: 5rem;
+
+}
