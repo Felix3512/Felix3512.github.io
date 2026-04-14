@@ -125,3 +125,61 @@ img {
     border-radius: 25px;
 
 }
+
+.hr1 {
+
+
+    margin-top: 5rem;
+    max-width: 100rem;
+    height: 1px;
+    background-color: black;
+    border: none;
+    
+}
+
+.hr2 {
+
+    margin-top: 2rem;
+    max-width: 90rem;
+    height: 1px;
+    background-color: black;
+    border: none;
+
+}
+
+
+.main-image3 {
+
+
+    background-color: aquamarine;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.main-row3 {
+
+    margin: 1rem;
+    margin-right: 6rem;
+    margin-left: 3rem;
+    margin-top: 9rem;
+    text-align: center;
+
+}
+
+.main-row4 {
+
+    margin-top: 7rem;
+    
+}
+
+
+.main-image4 {
+
+    display: flex;
+    justify-content: center;
+
+}
