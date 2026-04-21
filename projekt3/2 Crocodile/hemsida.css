@@ -1,18 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     background-color: #5E8F68;
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 1rem;
     height: calc(200px - .5rem);
     text-align: center;
-    position: relative
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
 }
+
 
 .nav-title {
 
-    
-    background-color: red;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.nav-links {
+
+    display: flex;
+    gap: 24px;
+    padding: 16px 24px;
+    margin-left: auto;
+
+}
+
+
+nav a {
+
+    text-decoration: none;
+    color: black;
+
 }
 
 .nav-image {
@@ -223,4 +249,21 @@ footer {
     text-align: center;
     font-size: 1.2rem;
     padding: 3rem;
+}
+
+p {
+
+    font-size: 1.3rem
+}
+
+#Home {
+    scroll-margin-top: 250px;
+}
+
+#About {
+    scroll-margin-top: 250px;
+}
+
+#Contact {
+    scroll-margin-top: 250px;
 }
