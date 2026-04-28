@@ -111,25 +111,18 @@ main {
 
 .main-text1 {
 
-    margin: 5rem;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
-
-}
-
-.main-text1 {
-
     border-radius: 15px;
+    padding: 1rem;
     margin: 5rem;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
 
 }
+
 
 .main-row1 {
 
     display: flex;
-    margin: 1rem;
     margin-left: 6rem;
     margin-right: 3rem;
     margin-top: 20rem;
@@ -169,6 +162,7 @@ img {
     border-radius: 25px;
 
 }
+
 
 .hr1 {
 
@@ -266,7 +260,7 @@ footer {
 
 p {
 
-    font-size: 1.3rem
+    font-size: 1.3rem;
 }
 
 #Home {
