@@ -19,7 +19,65 @@ nav {
     top: 0;
     z-index: 100;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    justify-content: flex-end;
     
+}
+
+
+.hamburger {
+
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    
+}
+
+.nav-links {
+
+    display: flex;
+    gap: 24px;
+    padding: 16px 24px;
+    margin-left: auto;
+    display: none;
+
+}
+
+.nav-links.open {
+        display: flex; /* show when JS adds the open class */
+    }
+
+
+@media (min-width: 780px) {
+
+    .hamburger {
+
+        display: none;
+
+    }
+
+
+    .nav-links {
+
+        display: flex;
+
+    }
+
+
+}
+
+
+button{
+
+    border: none;
+
+}
+
+.color {
+
+    border: none;
+    cursor: pointer;
+
 }
 
 
@@ -32,14 +90,6 @@ nav {
 
 }
 
-.nav-links {
-
-    display: flex;
-    gap: 24px;
-    padding: 16px 24px;
-    margin-left: auto;
-
-}
 
 
 nav a {
