@@ -1,3 +1,20 @@
+:root {
+
+    --text-light: black;
+    --text-dark: white;
+
+    --bg-nav-light: #5E8F68;
+    --bg-main-light: #A8D5A2;
+    --bg-footer-light: #4E6B55;
+    --bg-hero-dark: #A8D5A2;
+
+    --bg-nav-dark: #24402B;
+    --bg-main-dark: #487A42;
+    --bg-footer-dark: #1A2E1E;
+    --bg-hero-dark: #487A42;
+}
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -9,7 +26,7 @@ body {
 }
 
 nav {
-    background-color: #5E8F68;
+    background-color: var(--bg-nav-light);
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -26,7 +43,7 @@ nav {
 
 .hamburger {
 
-    background-color: red;
+    
     border: none;
     cursor: pointer;
     display: flex;
@@ -44,7 +61,7 @@ nav {
 }
 
 .nav-links.open {
-        display: flex; /* show when JS adds the open class */
+        display: flex;
     }
 
 
@@ -66,13 +83,6 @@ nav {
 
 }
 
-
-button{
-
-    border: none;
-
-}
-
 .color {
 
     border: none;
@@ -86,7 +96,7 @@ button{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    
+    color: var(--text-light);
 
 }
 
@@ -95,7 +105,7 @@ button{
 nav a {
 
     text-decoration: none;
-    color: black;
+    color: var(--text-light);
 
 }
 
@@ -109,7 +119,7 @@ nav a {
 
 .hero {
 
-    background-color: #D4E4C5;
+    background-color: var(--bg-main-light);
     box-shadow: 0 4px 0 rgba(0, 0, 0, 0.9);
     
 
@@ -117,7 +127,6 @@ nav a {
 
 .hero-row1 {
 
-    background-color: #A8D5A2;
     display: flex;
     padding: 1rem;
     gap: 1rem;
@@ -127,7 +136,7 @@ nav a {
 
 .hero-row2 {
 
-    background-color: #A8D5A2;
+    
     padding: 1rem;
     display: flex;
     gap: 1rem;
@@ -147,13 +156,12 @@ nav a {
 
 main {
 
-    background-color: #A8D5A2;
+    background-color: var(--bg-main-light);
 
 }
 
 .main-image1 {
 
-    background-color: #A8D5A2;
     padding-top: 3rem;
     display: flex;
     justify-content: center;
@@ -238,8 +246,6 @@ img {
 
 .main-image3 {
 
-
-    background-color: #A8D5A2;
     padding-top: 5rem;
     display: flex;
     justify-content: center;
@@ -301,7 +307,7 @@ img {
 
 footer {
 
-    background-color: #4E6B55;
+    background-color: var(--bg-footer-light);
     text-align: center;
     font-size: 1.2rem;
     padding: 3rem;
@@ -311,6 +317,8 @@ footer {
 p {
 
     font-size: 1.3rem;
+    color: var(--text-light);
+
 }
 
 #Home {
