@@ -6,7 +6,7 @@
     --bg-nav-light: #5E8F68;
     --bg-main-light: #A8D5A2;
     --bg-footer-light: #4E6B55;
-    --bg-hero-dark: #A8D5A2;
+    --bg-hero-light: #A8D5A2;
 
     --bg-nav-dark: #24402B;
     --bg-main-dark: #487A42;
@@ -40,6 +40,38 @@ body {
     opacity: 0.;
     color: var(--text-dark);
 
+}
+
+#lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbox.open {
+    display: flex;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+#lightbox-close {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
 }
 
 nav {
@@ -136,7 +168,7 @@ nav a {
 
 .hero {
 
-    background-color: var(--bg-main-light);
+    background-color: var(--bg-hero-light);
     box-shadow: 0 4px 0 rgba(0, 0, 0, 0.9);
     
 

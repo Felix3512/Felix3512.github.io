@@ -70,3 +70,25 @@ window.addEventListener("scroll", function() {
 scrollBtn.addEventListener("click", function() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
+
+
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const lightboxClose = document.getElementById("lightbox-close");
+
+document.querySelectorAll("img").forEach(function(img) {
+    img.addEventListener("click", function() {
+        lightboxImg.src = this.src;
+        lightbox.classList.add("open");
+    });
+});
+
+lightboxClose.addEventListener("click", function() {
+    lightbox.classList.remove("open");
+});
+
+lightbox.addEventListener("click", function(e) {
+    if (e.target === lightbox) {
+        lightbox.classList.remove("open");
+    }
+});
