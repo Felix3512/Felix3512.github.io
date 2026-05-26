@@ -25,6 +25,23 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+#scroll-top {
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    padding: 10px 15px;
+    font-size:  18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0.;
+    color: var(--text-dark);
+
+}
+
 nav {
     background-color: var(--bg-nav-light);
     display: flex;
